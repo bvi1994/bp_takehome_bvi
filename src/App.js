@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+/**
+ * The main component of the application.
+ * @returns {JSX.Element} The rendered component.
+ */
 import './App.css';
+import DigitalCard from './components/Level3/DigitalCard/DigitalCard';
+import mockValues from './mockvalues.constants'; // This will be used for testing purposes, simulate the data from the API for purposes of this take-home
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div 
+      className={"flex-column"}
+    >
+      <h2>{"Flex Card"}</h2>
+      <h3>{"Used for purchases"}</h3>
+      <DigitalCard {...mockValues}/>
     </div>
-  );
+  )
 }
 
 export default App;
