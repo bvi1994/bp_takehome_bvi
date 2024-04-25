@@ -6,8 +6,7 @@ This project is for a takehome for https://benepass.com/ front end challenge. Th
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Test Coverage](#testcoverage)
 
 ## Installation
 
