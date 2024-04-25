@@ -20,7 +20,7 @@ This project is for a takehome for https://benepass.com/ front end challenge. Th
 
 ## Usage
 
-To run the project, use the following command: ```yarn start``
+To run the project, use the following command: ```yarn start```
 
 ## Test Coverage
 
